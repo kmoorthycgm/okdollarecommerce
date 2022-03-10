@@ -1,0 +1,321 @@
+.form-group{
+	margin-bottom: 30px;
+	position: relative;
+	display: block;
+}
+.form-group .label{
+	cursor: text;
+	font-weight: 500;
+	font-size: 14px;
+	width: 100%;
+	top: 10px;
+	color: #000;
+	z-index: 0;
+	letter-spacing: 0.5px;
+	transition: 0.3s ease;
+	-webkit-transition: 0.3s ease;
+	-moz-transition: 0.3s ease;
+	margin-bottom: 0;
+}
+.form-group .select-label{
+	font-weight: 500;
+	font-size: 14px;
+	width: 100%;
+	color: #000;
+	letter-spacing: 0.5px;
+	transition: 0.3s ease;
+	-webkit-transition: 0.3s ease;
+	-moz-transition: 0.3s ease;
+	margin-bottom: 0;
+}
+.form-group .input-control{
+	cursor: text;
+	height: 40px;
+	box-shadow: none;
+	border: none;
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	border-radius: 0;
+	border: 1px solid #222222;
+	background: transparent;
+	padding: 5px 15px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #000;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	outline: none;
+}
+.form-group .select-control{
+	cursor: text;
+	height: 40px;
+	box-shadow: none;
+	border: none;
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	border-radius: 0;
+	border: 1px solid #222222;
+	background: transparent;
+	padding: 5px 15px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #000;
+}
+.form-group .textarea{
+	height: auto;
+	resize: none;
+	cursor: text;
+	box-shadow: none;
+	position: relative;
+	width: 100%;
+	border-radius: 0;
+	border: 1px solid #222222;
+	background-color: transparent;
+	padding: 10px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #000;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	outline: none;
+}
+.form-group .form-border{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #222222;
+	transition: 0.3s ease;
+	-webkit-transition: 0.3s ease;
+	-moz-transition: 0.3s ease;
+}
+.form-group .required{
+	color: #f00;
+}
+.form-group .error{
+	font-size: 13px;
+	color: #f44336;
+	display: block;
+	position: relative;
+	margin-top: 2px;
+}
+.form-group .btn{
+	display: block;
+	position: relative;
+	height: 38px;
+	line-height: 38px;
+	border: none;
+	font-size: 16px;
+	text-align: center;
+	width: 100%;
+	padding: 0;
+	border-radius: 0;
+	outline: none;
+	box-shadow: none;
+}
+.form-group .btn.btn-theme{
+	background-color: #f6c600;
+	color: #000;
+}
+.checkbox-group{
+	display: block;
+	position: relative;
+}
+.checkbox-group .checkbox-control{
+	position: absolute;
+	left: -9999px;
+	visibility: hidden;
+}
+.checkbox-group .label{
+
+	padding-left: 28px;
+	cursor: pointer;
+	margin-bottom: 0;
+	top: 0;
+	position: relative;
+	left: 0;
+	font-size: 14px;
+	color: #000;
+	display: block;
+	height: auto;
+	line-height: normal;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	vertical-align: middle;
+}
+.checkbox-group .label:before{
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 1px;
+	/* border-radius: 2px; */
+	height: 15px;
+	width: 15px;
+	border: 1px solid #222222;
+}
+.checkbox-group .label:after{
+	content: '';
+	position: absolute;
+	top: 4px;
+	left: 0;
+	width: 18px;
+	height: 7px;
+	border-bottom: 2px solid #222222;
+	border-left: 2px solid #222222;
+	opacity: 0;
+	-webkit-transform: scale(0) rotate(80deg);
+	-ms-transform: scale(0) rotate(80deg);
+	-o-transform: scale(0) rotate(80deg);
+	transform: scale(0) rotate(80deg);
+}
+.checkbox-group .label:before,
+.checkbox-group .label:after{
+	-webkit-transition: all;
+	-o-transition: all;
+	transition: all;
+	-webkit-transition-duration: 250ms;
+	transition-duration: 250ms;
+	-webkit-backface-visibility: hidden;
+}
+.checkbox-group .checkbox-control:checked + .label:before{
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	-o-transform: scale(0);
+	transform: scale(0);
+}
+.checkbox-group .checkbox-control:checked + .label:after{
+	-webkit-transform: scale(1) rotate(-50deg);
+	-ms-transform: scale(1) rotate(-50deg);
+	-o-transform: scale(1) rotate(-50deg);
+	transform: scale(1) rotate(-50deg);
+	opacity: 1;
+}
+.radio-group{
+	display: block;
+	position: relative;
+}
+.radio-group .radio-control{
+	left: -9999px;
+	position: absolute;
+}
+.radio-group .radio-label{
+	position: relative;
+	display: block;
+	padding-left: 35px;
+	cursor: pointer;
+}
+.radio-group .radio-label:before{
+	height: 20px;
+	width: 20px;
+	margin: 0;
+	top: 3px;
+	content: '';
+	position: absolute;
+	left: 0;
+	z-index: 0;
+	transition: .28s ease;
+	border-radius: 50%;
+	border: 2px solid #222222;
+}
+.radio-group .radio-label:after{
+	content: '';
+	position: absolute;
+	left: 0;
+	height: 20px;
+	width: 20px;
+	margin: 0;
+	top: 3px;
+	border-radius: 50%;
+	z-index: 0;
+	transition: .28s ease;
+	background-color: #222222;
+	border-color: #222222;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+.radio-group .radio-control:checked + .radio-label:after{
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+}
+.btn-animation{
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+	-webkit-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+	-o-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+	-moz-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+	-ms-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+.btn-animation:before {
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 0px;
+	width: 100%;
+	z-index: -1;
+	content: '';
+	color: #FFF;
+	background: #000;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+.btn-animation:hover{
+	color: #FFF !important;
+}
+.btn-animation:hover:before {
+	bottom: 0%;
+	top: auto;
+	height: 100%;
+}
+
+.direction-rtl .checkbox-group{
+	text-align: right;
+}
+.direction-rtl .checkbox-group .label{
+	padding-right: 30px;
+	padding-left: 0;
+}
+.direction-rtl .checkbox-group .label:before{
+	right: 0;
+}
+
+.direction-rtl .radio-group .radio-label{
+	text-align: right;
+}
+.direction-rtl .radio-group .radio-label{
+	padding-right: 30px;
+	padding-left: 0;
+}
+.direction-rtl .radio-group .radio-label:before{
+	right: 0;
+}
+.direction-rtl .form-group .label,
+.direction-rtl .form-group .error,
+.direction-rtl .form-group .input-control,
+.direction-rtl .form-group .select-label{
+	text-align: right;
+}
+.direction-rtl .form-group .label{
+	text-align: left;
+}
+
+/* BEGIN : Media Query */
+@media only screen and (max-width: 767px){
+	.mt-30-sm{
+		margin-top: 30px;
+	}
+	.direction-rtl .form-group .label{
+		text-align: right;
+	}
+}
+
+@media only screen and (max-width: 575px){
+	.account-section .account-block .account-form{
+		width: 100%;
+	}
+}
+/* END : Media Query */

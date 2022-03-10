@@ -1,0 +1,332 @@
+.account-section,
+.account-section .nav-box .nav-list .nav-item{
+	display: block;
+	position: relative;
+}
+.account-section .title{
+	font-size: 22px;
+	margin-bottom: 25px;
+	display: block;
+	position: relative;
+}
+.account-section .nav-box{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	border-bottom: 1px solid #111;
+}
+.account-section .nav-box .nav-list{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	margin-bottom: -1px;
+}
+.account-section .nav-box .nav-list .item{
+	display: block;
+	position: relative;
+	padding: 10px 18px;
+	font-size: 15px;
+	color: #000;
+	border-bottom: 2px solid transparent;
+}
+.account-section .nav-box .nav-list .item.active{
+	border-color: #000;
+	font-weight: 600;
+}
+.account-section .account-block .head-name{
+	display: block;
+	position: relative;
+	font-size: 20px;
+	font-weight: 500;
+	color: #222;
+	margin-bottom: 10px;
+}
+.account-section .account-block .add-new{
+	display: inline-block;
+	position: relative;
+	font-size: 14px;
+	color: #121212;
+	outline: none;
+	margin-bottom: 10px;
+}
+.account-section .account-block .account-form{
+	display: block;
+	position: relative;
+	width: 60%;
+	margin-top: 30px;
+}
+.account-section .address-block .radio-group{
+	margin-bottom: 25px;
+	min-height: 120px;
+}
+.account-section .address-block .radio-group .radio-label{
+	background-color: transparent;
+	padding: 12px 12px 12px 40px;
+	margin-bottom: 0;
+	border: 1px solid #cccccc;
+}
+.account-section .address-block .radio-group .radio-label:before{
+	top: 14px;
+	left: 10px;
+}
+.account-section .address-block .radio-group .radio-label:after{
+	top: 14px;
+	left: 10px;
+}
+.account-section .address-block .radio-label .name{
+	display: block;
+	position: relative;
+	font-size: 16px;
+	font-weight: 600;
+}
+.account-section .address-block .radio-label .street-block{
+	font-size: 15px;
+	display: block;
+	position: relative;
+	color: #747474;
+	margin-top: 8px;
+	line-height: 22px;
+}
+
+.account-section .account-block .my-order{
+	list-style-type: none;
+	display: block;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+.account-section .account-block .my-order li{
+	display: block;
+	position: relative;
+	border: 1px solid #d3bfa5;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+.account-section .account-block .my-order li .row{
+	margin-bottom: -15px;
+}
+.account-section .account-block .my-order .item{
+	display: block;
+	position: relative;
+	margin-bottom: 20px;
+}
+.account-section .account-block .my-order .item .label{
+	display: block;
+	position: relative;
+	margin-bottom: 5px;
+	padding: 0;
+	font-size: 15px;
+	font-weight: 600;
+	color: #111;
+}
+.account-section .account-block .my-order .item .value{
+	display: block;
+	position: relative;
+	margin-bottom: 0;
+	font-size: 14px;
+	color: #111;
+}
+.account-section .account-block .my-order .item a.value{
+	color: #d3bfa5;
+}
+.account-section .account-block .my-order .item a.btn{
+	display: inline-block;
+	background-color: #D3BFA5;
+	color: #FFF;
+	padding: 4px 14px;
+	font-size: 14px;
+	border-radius: 3px;
+	outline: none;
+	box-shadow: none;
+	border: none;
+	margin-right: 5px;
+}
+.my-order li:last-child{
+	margin-bottom: 0!important;
+}
+.coupon-code-box{
+	display: block;
+	position: relative;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.coupon-code-box .title{
+	display: block;
+	position: relative;
+	margin-bottom: 15px;
+	color: #222222;
+	font-size: 24px;
+}
+.coupon-code-box .coupon-control{
+	border: 1px solid #f6c600;
+	padding: 10px 15px;
+	display: block;
+	position: relative;
+	outline: none;
+	font-size: 15px;
+	width: 100%;
+}
+.coupon-code-box .coupon-btn{
+	background-color: #f6c600;
+	color: #000;
+	padding: 0 18px;
+	font-size: 15px;
+	border: none;
+}
+.account-section .table-order thead tr{
+	background-color: #efefef;
+	color: #222222;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.account-section .table-order tr th{
+	padding: 18px;
+	text-align: center;
+}
+.account-section .table-order tr td{
+	color: #222222;
+	font-size: 15px;
+	padding: 6px 18px;
+	text-align: center;
+	vertical-align: middle;
+}
+.account-section .table-order tr td .action-icon{
+	height: 36px;
+	width: 36px;
+	line-height: 36px;
+	color: #121212;
+	display: inline-block;
+	position: relative;
+	border-radius: 36px;
+}
+.account-section .offset-cm-2{
+	margin-left: 21%;
+}
+
+/* ACCOUNT SECTION :BEGIN */
+.direction-rtl .account-section .offset-cm-2{
+	margin-right: 21%;
+	margin-left: auto;
+}
+.direction-rtl .account-section .address-block .radio-group .radio-label{
+	padding: 12px 40px 12px 12px;
+}
+.direction-rtl .account-section .address-block .radio-group .radio-label:before{
+	right: 10px;
+}
+.direction-rtl .account-section .table-order tr td,
+.direction-rtl .account-section .table-order tr td:last-child{
+	text-align: right !important;
+}
+/* ACCOUNT SECTION :END */
+
+/* BEGIN : Media Query */
+@media only screen and (max-width: 919px){
+	.account-section .table-order tr th,
+	.account-section .table-order tr td{
+		padding: 8px 12px;
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 767px){
+	.mt-30-sm{
+		margin-top: 30px;
+	}
+	.account-section .nav-box{
+		display: inline-block;
+		position: relative;
+		white-space: nowrap;
+		overflow: auto;
+		width: 100%;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, .15), 0 2px 5px rgba(0, 0, 0, .10);
+		border-bottom: none;
+		height: 40px;
+	}
+	.account-section .nav-box .nav-list .item{
+		font-size: 14px;
+		padding: 10px;
+	}
+	.account-section .nav-box .nav-list{
+		box-shadow: none;
+		padding: 0;
+	}
+	.account-section .nav-box .nav-list .nav-item{
+		display: inline-block;
+		vertical-align: top;
+		white-space: nowrap;
+	}
+	.account-section .address-block .radio-label .name{
+		font-size: 15px;
+	}
+	.account-section .address-block .radio-label .street-block{
+		font-size: 13px;
+	}
+	.account-section .address-block .radio-group .radio-label:before{
+		top: 12px;
+	}
+	.coupon-code-box .title{
+		font-size: 15px;
+	}
+	.coupon-code-box .coupon-control,
+	.coupon-code-box .coupon-btn{
+		font-size: 14px;
+	}
+	.account-section .table-order,
+	.account-section .table-order tr td{
+		border: none;
+	}
+	.account-section .table-order thead{
+		display: none;
+	}
+	.account-section .table-order tr{
+		display: inline-block;
+		width: 100%;
+		margin-bottom: 15px;
+		border: 1px solid #CCCCCC;
+	}
+	.account-section .table-order tr td{
+		width: 50%;
+		display: inline-block;
+		vertical-align: top;
+		font-size: 13px;
+		float: left;
+		text-align: left;
+		padding: 8px 8px;
+	}
+	.account-section .table-order tr td:last-child{
+		text-align: left !important;
+	}
+}
+
+@media only screen and (max-width: 575px){
+	.account-section .account-block .account-form{
+		width: 100%;
+	}
+	.account-section .offset-cm-2{
+		margin-left: 0;
+	}
+	.direction-rtl .account-section .offset-cm-2{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.account-section .account-block .head-name,
+	.account-section .title{
+		font-size: 16px;
+	}
+	.account-section .account-block .add-new{
+		font-size: 13px;
+	}
+	.account-section .table-order tr td .action-icon{
+		height: auto;
+		width: auto;
+		line-height: normal;
+	}
+}
+
+@media only screen and (max-width: 320px){
+	.account-section .account-block .my-order .item a.btn{
+		padding: 4px 10px;
+		margin-right: 3px;
+	}
+}
+/* END : Media Query */
